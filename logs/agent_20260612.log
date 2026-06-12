@@ -1,0 +1,53 @@
+2026-06-12 19:06:43,188 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有1条消息。
+2026-06-12 19:06:43,188 - agent - DEBUG - middleware.py:40 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-06-12 19:06:45,104 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: get_user_id
+2026-06-12 19:06:45,104 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:06:45,105 - agent - INFO - middleware.py:23 - [tool monitor]工具get_user_id调用成功
+2026-06-12 19:06:45,105 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有3条消息。
+2026-06-12 19:06:45,105 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | 1010
+2026-06-12 19:06:47,033 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: get_current_month
+2026-06-12 19:06:47,033 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:06:47,033 - agent - INFO - middleware.py:23 - [tool monitor]工具get_current_month调用成功
+2026-06-12 19:06:47,034 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有5条消息。
+2026-06-12 19:06:47,034 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | 2025-08
+2026-06-12 19:06:48,752 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: fill_context_for_report
+2026-06-12 19:06:48,752 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:06:48,752 - agent - INFO - middleware.py:23 - [tool monitor]工具fill_context_for_report调用成功
+2026-06-12 19:06:48,752 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有7条消息。
+2026-06-12 19:06:48,753 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | Error: fill_context_for_report is not a valid tool, try one of [rag_summarize, get_weather, get_user_location, get_current_month, get_user_id, fetch_external_data].
+2026-06-12 19:06:51,856 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: fetch_external_data
+2026-06-12 19:06:51,856 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {'user_id': '1010', 'month': '2025-08'}
+2026-06-12 19:06:51,859 - agent - INFO - middleware.py:23 - [tool monitor]工具fetch_external_data调用成功
+2026-06-12 19:06:51,859 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有9条消息。
+2026-06-12 19:06:51,859 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | {"特征": "130㎡四居 | 三代同堂 | 通体砖", "效率": "覆盖率:80%\\n手动辅助清扫:4次/天\\n定时清扫使用率:50%", "耗材": "电池衰减:17%\\n边刷寿命:剩余35天", "对比": "大户型中操作便捷性低于同类25%"}
+2026-06-12 19:16:53,824 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有1条消息。
+2026-06-12 19:16:53,825 - agent - DEBUG - middleware.py:40 - [log_before_model]HumanMessage | 机器人
+2026-06-12 19:18:25,835 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有1条消息。
+2026-06-12 19:18:25,835 - agent - DEBUG - middleware.py:40 - [log_before_model]HumanMessage | 有什么机器人
+2026-06-12 19:18:27,614 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: rag_summarize
+2026-06-12 19:18:27,614 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {'query': '扫地机器人和扫拖一体机器人类型及功能介绍'}
+2026-06-12 19:18:30,959 - agent - INFO - middleware.py:23 - [tool monitor]工具rag_summarize调用成功
+2026-06-12 19:18:32,468 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有3条消息。
+2026-06-12 19:18:32,468 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | 扫地机器人主要功能为自动清扫地面灰尘和杂物，适用于硬质地板和地毯。扫拖一体机器人在扫地基础上增加拖地功能，可同时完成吸尘与湿拖，部分机型支持智能分区、自动回充、APP控制及自动清洗拖布等功能。
+2026-06-12 19:18:56,915 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有1条消息。
+2026-06-12 19:18:56,915 - agent - DEBUG - middleware.py:40 - [log_before_model]HumanMessage | 生成报告
+2026-06-12 19:19:00,661 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: get_user_id
+2026-06-12 19:19:00,661 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:19:00,662 - agent - INFO - middleware.py:23 - [tool monitor]工具get_user_id调用成功
+2026-06-12 19:19:00,737 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有3条消息。
+2026-06-12 19:19:00,737 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | 1004
+2026-06-12 19:19:04,181 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: get_current_month
+2026-06-12 19:19:04,181 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:19:04,183 - agent - INFO - middleware.py:23 - [tool monitor]工具get_current_month调用成功
+2026-06-12 19:19:04,306 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有5条消息。
+2026-06-12 19:19:04,306 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | 2025-12
+2026-06-12 19:19:06,893 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: fill_context_for_report
+2026-06-12 19:19:06,893 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {}
+2026-06-12 19:19:06,893 - agent - INFO - middleware.py:23 - [tool monitor]工具fill_context_for_report调用成功
+2026-06-12 19:19:09,466 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有7条消息。
+2026-06-12 19:19:09,467 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | Error: fill_context_for_report is not a valid tool, try one of [rag_summarize, get_weather, get_user_location, get_current_month, get_user_id, fetch_external_data].
+2026-06-12 19:19:13,969 - agent - INFO - middleware.py:18 - [tool monitor]执行工具: fetch_external_data
+2026-06-12 19:19:13,969 - agent - INFO - middleware.py:19 - [tool monitor]传入参数: {'user_id': '1004', 'month': '2025-12'}
+2026-06-12 19:19:13,971 - agent - INFO - middleware.py:23 - [tool monitor]工具fetch_external_data调用成功
+2026-06-12 19:19:15,824 - agent - INFO - middleware.py:38 - [log_before_model]即将调用模型, 带有9条消息。
+2026-06-12 19:19:15,824 - agent - DEBUG - middleware.py:40 - [log_before_model]ToolMessage | {"特征": "85㎡ | 2猫 | 混合地面", "效率": "猫砂泼洒处理:5次/月\\n自动回充成功率:95%", "耗材": "主刷寿命:剩余40天\\n滤网寿命:剩余45天", "对比": "清洁效率优于同类养宠家庭35%"}
